@@ -1,0 +1,25 @@
+@import 'common.scss';
+
+.my-extension {
+    padding: 20px;
+}
+
+.my-extension h1 {
+    color: red;
+    font-size: 55px;
+}
+
+
+#clonegpt-container {
+    background-color: black;
+
+    border: 5px solid red;
+    width: 400px;
+    height: 100%;
+    position: fixed !important;
+    top: 0px !important;
+    right: 0px !important;
+    z-index: 2147483647;
+    background-color: white;
+    box-shadow: 0px 0px 5px #0000009e;
+}
